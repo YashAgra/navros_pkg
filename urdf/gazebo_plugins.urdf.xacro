@@ -30,13 +30,14 @@
 	    <updateRate>20</updateRate>
 	    <leftJoint>joint_left_wheel_chassis</leftJoint>
 	    <rightJoint>joint_right_wheel_chassis</rightJoint>
-	    <publishWheelTF>True</publishWheelTF>
+	    <publishWheelTF>False</publishWheelTF>
+		<publishOdomTF>False</publishOdomTF>
 	    <wheelSeparation>0.2</wheelSeparation>
 	    <wheelDiameter>0.2</wheelDiameter>
 	    <torque>0.1</torque>
 	    <commandTopic>cmd_vel</commandTopic>
-	    <odometryTopic>odom</odometryTopic>
-	    <odometryFrame>odom</odometryFrame>
+	    <odometryTopic>odom_g</odometryTopic>
+	    <odometryFrame>odom_g</odometryFrame>
 	    <robotBaseFrame>chassis</robotBaseFrame>
 	  </plugin>
 	</gazebo>
